@@ -1,5 +1,5 @@
 ---
-title: 플러터 패키지 생성 후 pub.dev에 publish하기
+title: [Flutter] 패키지 생성 후 pub.dev에 publish하기
 date: 2022-01-05 21:00 +0900
 categories: [Mobile, Flutter]
 tags: [Flutter]
