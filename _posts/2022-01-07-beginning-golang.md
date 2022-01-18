@@ -1,5 +1,5 @@
 ---
-title: [Go] golang을 처음 접할 때 알아야할 알짜배기
+title: "[Go] golang을 처음 접할 때 알아야할 알짜배기"
 date: 2022-01-07 17:48 +0900
 categories: [Language, Go]
 tags: [Go]
