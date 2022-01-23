@@ -1,0 +1,208 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>dev.appmin</title>
+  <subtitle>개발을 하면서 소소하게 얻은 꿀팁들을 공유하는 블로그.</subtitle>
+  <updated>2022-01-18T23:49:25+09:00</updated>
+  <author>
+    <name>Kim Seung Hwan</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="ko"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator>
+  <rights> © 2022 Kim Seung Hwan </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>[Flutter] 위젯의 크기 / 위치 값을 가져오는 법</title>
+    <link href="http://localhost:4000/posts/flutter-get-size-of-widget/" rel="alternate" type="text/html" title="[Flutter] 위젯의 크기 / 위치 값을 가져오는 법" />
+    <published>2022-01-18T23:49:00+09:00</published>
+  
+    <updated>2022-01-18T23:49:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/flutter-get-size-of-widget/</id>
+    <content src="http://localhost:4000/posts/flutter-get-size-of-widget/" />
+    <author>
+      <name>Kim Seung Hwan</name>
+    </author>
+
+  
+    
+    <category term="Mobile" />
+    
+    <category term="Flutter" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Before Start.
+
+위젯의 크기 및 위치를 얻는 방법들
+
+
+  LayoutBuilder
+  Global Key 및 RenderBox를 활용
+  MeasuredSize
+
+
+이번 포스트에서는 Global Key를 통해서 구하는 방법을 알아보겠습니다.
+
+Getting Started.
+
+기본 코드
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
+  @override
+  State&amp;lt;MyHomePage&amp;gt; createState() =&amp;gt; _MyHomePageState();
+}
+
+class _MyHomePageState extends State&amp;lt;MyHomePage&amp;gt; ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>[Go] golang을 처음 접할 때 알아야할 알짜배기</title>
+    <link href="http://localhost:4000/posts/beginning-golang/" rel="alternate" type="text/html" title="[Go] golang을 처음 접할 때 알아야할 알짜배기" />
+    <published>2022-01-07T17:48:00+09:00</published>
+  
+    <updated>2022-01-18T23:29:32+09:00</updated>
+  
+    <id>http://localhost:4000/posts/beginning-golang/</id>
+    <content src="http://localhost:4000/posts/beginning-golang/" />
+    <author>
+      <name>Kim Seung Hwan</name>
+    </author>
+
+  
+    
+    <category term="Language" />
+    
+    <category term="Go" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Before start.
+
+노마드코더에서 쉽고 빠른 Go 시작하기를 학습하며 새로 배운 사실들을 공부하면서 적은 글 입니다.
+
+References
+
+Golang Study에 공부를 하며 작성한 예제 프로그램과 각 챕터마다 README를 적어놓았습니다.
+
+Getting Started.
+
+formatting package
+
+import "fmt"
+
+
+Print something
+
+import "fmt"
+fmt.Println("Hello world!")
+
+
+Private / Public
+
+Public - 변수 혹은 함수 명을 대문자로 시작할 경우
+Private - 변수 혹은 함수 명을 소문자로 시작할 경우
+
+Constant / Variable
+
+const 상수
+var변수
+
+// 둘은 동일
+// :=은 새로 ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>[Flutter] 패키지 생성 후 pub.dev에 publish하기</title>
+    <link href="http://localhost:4000/posts/publish-to-pub-dev/" rel="alternate" type="text/html" title="[Flutter] 패키지 생성 후 pub.dev에 publish하기" />
+    <published>2022-01-05T21:00:00+09:00</published>
+  
+    <updated>2022-01-18T23:29:32+09:00</updated>
+  
+    <id>http://localhost:4000/posts/publish-to-pub-dev/</id>
+    <content src="http://localhost:4000/posts/publish-to-pub-dev/" />
+    <author>
+      <name>Kim Seung Hwan</name>
+    </author>
+
+  
+    
+    <category term="Mobile" />
+    
+    <category term="Flutter" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Before Start.
+
+Dart Packages vs Flutter Packages.
+
+
+Figure 1
+
+
+  
+    Dart Packages
+
+    Dart로만 짜여진 일반적인 패키지를 의미합니다. 각 Platform마다 따로 처리를 할 필요가 없으면 다트 패키지로 만드는 것 같습니다.
+  
+  
+    Plugin Packages
+
+    다트 패키지와 다르게 각 Platfrom마다 다르게 처리를 해 줄 필요가 있을 경우에는 플러그인 패키지로 생성하는 것 같습니다.
+  
+
+
+추가적으로 플러그인 패키지로 패키지를 생성할 경우 example 폴더가 기본적으로 생성되나 다트 패키지로 패키지를 생성할 경우에는 example 폴더가 기본적으로 생기지 않습니다.
+
+이번 포스트에서는 Dart 코드를 통...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
