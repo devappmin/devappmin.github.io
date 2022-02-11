@@ -79,7 +79,8 @@
         {%- endif -%}
       {% endcapture %}
 
-      {% if url %}
+      <!-- Remove Twitter Button -->
+      {% if url and entry.type != 'twitter' %}
       <a href="{{ url }}" aria-label="{{ entry.type }}"
         {% unless entry.noblank %}target="_blank" rel="noopener"{% endunless %}>
         <i class="{{ entry.icon }}"></i>
