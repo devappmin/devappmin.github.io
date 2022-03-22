@@ -1,7 +1,7 @@
 ---
 title: "[Flutter] 위젯의 크기 / 위치 값을 가져오는 법"
 date: 2022-01-18 23:49 +0900
-categories: [Mobile, Flutter]
+categories: [Develop, Flutter]
 tags: [Flutter]
 ---
 

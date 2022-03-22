@@ -1,7 +1,7 @@
 ---
 title: "[Flutter] Equatable, 이렇게 좋은데도 안 써?"
 date: 2022-02-07 21:12 +0900
-categories: [Mobile, Flutter]
+categories: [Develop, Flutter]
 tags: [Flutter, Equatable]
 ---
 

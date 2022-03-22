@@ -1,7 +1,7 @@
 ---
 title: "[Flutter] BLoC 패턴을 케이크처럼 쉽게 이해할 수 있는 글"
 date: 2022-02-19 20:50 +0900
-categories: [Mobile, Flutter]
+categories: [Develop, Flutter]
 tags: [Flutter, BLoC]
 ---
 
