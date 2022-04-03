@@ -129,7 +129,7 @@ noremap <C-a> :NERDTreeToggle<CR>
 
 #### 기타 특수 케이스
 
-1. 조용히 처리를 하고 싶을 때
+- **조용히 처리를 하고 싶을 때**
 
 ```vim
 nnoremap <C-a> :NERDTreeToggle<CR>
@@ -139,13 +139,13 @@ nnoremap <C-a> :NERDTreeToggle<CR>
 
 <img title="" src="/uploads/90093882df8a824931d3d4710f462bcc059fb6de.png" alt="loading-ag-1128" data-align="center" width="174">
 
-하지만 이런게 마음에 들지 않고 숨기고 싶다면 명령어 조합 전이 `<Silent>`를 입력해주면 됩니다.
+하지만 이런게 마음에 들지 않고 숨기고 싶다면 명령어 조합 전에 `<Silent>`를 입력해주면 됩니다.
 
 ```vim
 nnoremap <Silent> <C-a> :NERDTreeToggle<CR>
 ```
 
-2. 키 매핑을 삭제하고 싶을 때
+- **키 매핑을 삭제하고 싶을 때**
 
 키 매핑을 새로 만드는 것이 아니라 매핑을 취소하고 싶은 경우가 있을 겁니다. 예를 들어, `<C-r>` 키를 다른 용도로 사용하고 있어 기존 용도를 없애버리고 싶거나, 매핑을 없애버리고 싶은 경우, `unmap`을 사용하면 됩니다.
 
@@ -153,7 +153,7 @@ nnoremap <Silent> <C-a> :NERDTreeToggle<CR>
 unmap <C-r>
 ```
 
-3. 사용자 전용 키
+- **사용자 전용 키**
 
 **Vim**에서는 사용자가 원하는 키를 등록하는 `<Leader>`키를 제공하고 있습니다. 기본적으로 `\ (백슬래시키)`로 설정이 되어있으며 다른 특수 키와 동일하게 키 조합으로 사용할 수 있습니다.
 
