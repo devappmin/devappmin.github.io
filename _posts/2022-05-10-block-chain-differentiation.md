@@ -57,7 +57,7 @@ tags: [Blockchain]
 
 위 그림을 통해 아래에서 위로 올라가면서 단일 블록체인 노드를 구성을 알아봅시다!
 
-- **Computer systems hardware/Network and operating system** : 이 두 레벨은 컴퓨팅 시스템이 가진 표준적인 하드웨어랑 소프트웨어를 의미합니다. **OSI 7 Layer**에서 볼 수 있는 Physical Layer,
+- **Computer systems hardware/Network and operating system** : 이 두 레벨은 컴퓨팅 시스템이 가진 표준적인 하드웨어랑 소프트웨어를 의미합니다.
 
 - **Blockchain protocol implementation** : 블록체인 프로토콜 레이어로 블록체인 컴포넌트들을 포함하고 있습니다.
 
