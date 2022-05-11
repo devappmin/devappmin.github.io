@@ -1,5 +1,5 @@
 ---
-title: "[Git] git-flow-avh를 멋쟁이처 쓰는 법"
+title: "[Git] git-flow-avh를 멋쟁이처럼 쓰는 법"
 date: 2022-05-12 00:08 +0900
 categories: [Tool, Git]
 tags: [Git, Git-Flow]
