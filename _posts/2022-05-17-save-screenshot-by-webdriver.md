@@ -1,8 +1,8 @@
 ---
 title: "[Python] Selenium으로 원하는 웹사이트 스크린샷 찍기"
-date: 2022-05-12 17:01 +0900
+date: 2022-05-17 15:43 +0900
 categories: [Develop, Python]
-tags: [Python, Webdriver, Selenium]
+tags: [Python, Webdriver, Selenium, Screenshot]
 ---
 
 # 시작하기에 앞서
