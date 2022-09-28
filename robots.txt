@@ -1,0 +1,3 @@
+ User-agent: *
+ Allow: /
+ Sitemap: https://petabyte.studio/sitemap.xml
