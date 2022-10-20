@@ -1,8 +1,8 @@
 ---
 title: "[Linux] 리눅스에서 스왑메모리를 생성해주기"
-date: 2022-09-01 16:02 +0900
-categories: [Diary]
-tags: [Diary]
+date: 2022-10-21 1:00 +0900
+categories: [Linux]
+tags: [Linux]
 ---
 
 # 🛫 시작하기에 앞서
