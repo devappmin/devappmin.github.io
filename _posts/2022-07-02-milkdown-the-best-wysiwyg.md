@@ -7,7 +7,7 @@ tags: [React, Javascript, WYSIWYG, 마크다운]
 
 # 🛫 시작하기에 앞서
 
-![Milkdown Logo](https://github.com/Saul-Mirone/milkdown/raw/main/gh-pages/public/milkdown-homepage.svg)
+![loading-ag-2588](/uploads/milkdown-homepage.svg)
 
 ## 🙃 밀크다운이라고 들어봤어?
 
@@ -131,7 +131,6 @@ const editor = useEditor((root) =>
     </head>
     <!-- more codes here.. -->
 </html>
-
 ```
 
 ### plugin-tooltip
@@ -180,13 +179,13 @@ import { menu } from '@milkdown/plugin-menu';
 
 그 이외에도 밀크다운에서는 수많은 플러그인을 지원하고 있으니 한 번 체크하는 것을 추천해 드립니다.
 
-*   [밀크다운 공식 플러그인](https://milkdown.dev/using-plugins)
+* [밀크다운 공식 플러그인](https://milkdown.dev/using-plugins)
 
-*   [밀크다운 커뮤니티 플러그인](https://github.com/Saul-Mirone/awesome-milkdown)
+* [밀크다운 커뮤니티 플러그인](https://github.com/Saul-Mirone/awesome-milkdown)
 
 ## 🙊 밀크다운을 vscode에서 사용하기
 
-![Milkdown-vscode](/uploads/milkdown-vscode.png)
+![loading-ag-2587](/uploads/milkdown-vscode.png)
 
 밀크다운을 vscode에 설치해서 마크다운을 깔끔하게 수정할 수 있습니다. 설치 방법은 다음과 같습니다.
 
@@ -207,7 +206,6 @@ import { menu } from '@milkdown/plugin-menu';
 
 ## 참조
 
-*   [Milkdown](https://milkdown.dev/)
+* [Milkdown](https://milkdown.dev/)
 
-*   [Saul-Mirone/milkdown: 🍼 Plugin driven WYSIWYG markdown editor framework. (github.com)](https://github.com/Saul-Mirone/milkdown)
-
+* [Saul-Mirone/milkdown: 🍼 Plugin driven WYSIWYG markdown editor framework. (github.com)](https://github.com/Saul-Mirone/milkdown)

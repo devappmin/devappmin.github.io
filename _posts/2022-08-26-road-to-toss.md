@@ -1,7 +1,7 @@
 ---
 title: "[일상] 한 달 간의 2022 토스 NEXT 챌린지 여정"
 date: 2022-08-26 02:36 +0900
-categories: \[Diary]
+categories: [Diary]
 tags: [Diary]
 ---
 
