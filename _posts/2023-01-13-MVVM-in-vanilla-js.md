@@ -1,6 +1,6 @@
 ---
 title: "[JS] 바닐라 JS에서 정말 간단한 MVVM + Repository 패턴 사용하기"
-date: 2022-11-25 00:09 +0900
+date: 2023-01-13 21:55 +0900
 categories: [Develop, Javascript]
 tags: [Javascript]
 ---
