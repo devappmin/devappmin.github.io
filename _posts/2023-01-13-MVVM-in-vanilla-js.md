@@ -93,7 +93,7 @@ MVVM에서 View와 ViewModel의 관계는 연결 상태를 최소화하고 ViewM
 
 ## 🐛 MVVM + Repository 로직
 
-![MVVM Vanilla](/uploads/mvvm-vanilla.png)
+![MVVM Vanilla](/uploads/MVVM-Vanilla.png)
 
 대부분의 프로세스는 다음과 같습니다.
 1. Binder를 통해서 이벤트가 들어온 것을 확인합니다.
